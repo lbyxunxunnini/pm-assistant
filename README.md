@@ -1,5 +1,7 @@
 # PM Assistant
 
+当前版本：`1.0.0`
+
 PM Assistant 是一个 Claude Code skill，用来把粗糙的产品想法推进成可执行的产品判断、MVP 范围、一份完整可读的 `PRD.md`，以及按模块拆分的真实颗粒度详设，必要时再补充开发交接文件。
 
 它面向开发工程师和 AI 编程用户：你可能实现速度很快，但在动手前需要更强的产品判断、范围收口和验收定义。
@@ -141,12 +143,13 @@ S1-S6 闭合、S1.5 已完成，且触发模块详设时 S5.6 也已完成后，
 
 - `SKILL.md`：主 skill 指令、阶段流程、门禁和行为规则。
 - `agents/openai.yaml`：展示元数据和默认 prompt。
-- `references/artifact-templates.md`：版本化产品产物模板。
-- `references/environment-interrogation.md`：S1.5 环境识别与约束分流清单。
-- `references/memory-rules.md`：checkpoint、进度索引和正式产物索引规则。
-- `references/module-detail-interrogation.md`：S5.6 模块详设拷问清单。
-- `references/formal-output-rules.md`：S7 正式输出、版本检查和完成门禁。
-- `references/product-visual-interaction-interrogation.md`：产品维度、视觉交互原则和按钮级交互拷问清单。
+- `agents/references/artifact-templates.md`：版本化产品产物模板。
+- `agents/references/environment-interrogation.md`：S1.5 环境识别与约束分流清单。
+- `agents/references/memory-rules.md`：checkpoint、进度索引和正式产物索引规则。
+- `agents/references/module-detail-interrogation.md`：S5.6 模块详设拷问清单。
+- `agents/references/formal-output-rules.md`：S7 正式输出、版本检查和完成门禁。
+- `agents/references/product-visual-interaction-interrogation.md`：产品维度、视觉交互原则和按钮级交互拷问清单。
+- `CHANGELOG.md`：版本说明。
 - `issue-ledger.md`：Agent PM 审查问题台账。
 
 ## 设计原则
